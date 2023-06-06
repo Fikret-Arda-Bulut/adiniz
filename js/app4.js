@@ -1,11 +1,13 @@
-var a = parseInt(prompt("Kaç Satır Olacak?"));
-var b = parseInt(prompt("Kaç Sutun Olacak?"));
-    document.write("<table border='1'>");
-    for (var i = 1; i <= a; i++) {
-        document.write("<tr>");
-        for (var j = 1; j <= b; j++) {
-            document.write("<td>" + i + ". * " + j + ". </td>");
+function tablo(){
+    var x = parseInt(prompt("Satır Sayısını Giriniz!"));
+    var y = parseInt(prompt("Sütun Sayısını Giriniz!"));
+        document.write("<table border='1'>");
+        for (var i = 1; i <= x; i++) {
+            document.write("<tr>");
+            for (var a = 1; a <= y; a++) {
+                document.write("<td>" + i + "- Satır " + a + "- Sütun </td>");
+            }
+            document.write("</tr>");
         }
-        document.write("</tr>");
-    }
-    document.write("</table>");
+        document.write("</table>");
+}
