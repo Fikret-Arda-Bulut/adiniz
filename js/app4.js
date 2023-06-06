@@ -1,11 +1,11 @@
-function tablo(){
-    var i = prompt("satır");
-    var j = prompt("sütun");
-
-    for(i = 0; i < 8; i++){
-        i = document.write="<tablo border=2px>";
-            for(j = 0; j < 8; j++){
-                document.write="<tr>"+ i + "<td>"+ j +"</td>"+"</tr>";
-            }
+var a = parseInt(prompt("Kaç Satır Olacak?"));
+var b = parseInt(prompt("Kaç Sutun Olacak?"));
+    document.write("<table border='1'>");
+    for (var i = 1; i <= a; i++) {
+        document.write("<tr>");
+        for (var j = 1; j <= b; j++) {
+            document.write("<td>" + i + ". * " + j + ". </td>");
+        }
+        document.write("</tr>");
     }
-}
+    document.write("</table>");
