@@ -1,0 +1,84 @@
+.ust{
+    width: 800px;
+    height: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+.baslik{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.orta{
+    border: solid 2px;
+    border-color: red;
+    margin-top: 80px;
+    width: 800px;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.aa1{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 380px;
+    color: blue;
+    font-size: 28px;
+}
+.alt{
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 760px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+#b1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.b11{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 250px;
+}
+/* ----------------------------- */
+#b2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.b22{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 450px;
+}
+/* ----------------------------- */
+#b3{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.b33{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 650px;
+}
+
+.rsm1{
+    margin-top: 25px;
+    margin-left: 270px;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+}
+#r1:hover{
+    width: 255px ;
+    height: 155px ;
+}

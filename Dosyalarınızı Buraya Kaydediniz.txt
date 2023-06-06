@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+		<head>
+			<title>SINAV<title>
+		</head>
+		<body>
+		<table border="500">
+		</body>
+</html>

@@ -1,0 +1,50 @@
+img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+img:hover{
+    width: 170px;
+    height: 170px;
+}
+
+.ust{
+    width: 800px;
+    height: 50px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+.baslik{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.orta{
+    border: solid 2px;
+    border-color: red;
+    margin-top: 35px;
+    width: 800px;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.r1{margin-left: 100px; margin-top: 25px;  position: absolute;}
+.r2{margin-left: 500px; margin-top: 30px; position: absolute;}
+.r3{margin-left: 100px; margin-top: 230px; position: absolute;}
+.r4{margin-left: 500px; margin-top: 230px; position: absolute;}
+.r5{margin-left: 300px; margin-top: 430px; position: absolute;}
+
+.m1{color: red; margin-left: 150px; margin-top: 200px; position: absolute;}
+.m2{color: red;  margin-left: 550px; margin-top: 200px; position: absolute;}
+.m3{color: red;  margin-left: 150px; margin-top: 400px; position: absolute;}
+.m4{color: red;  margin-left: 550px; margin-top: 400px; position: absolute;}
+.m5{color: red;  margin-left: 350px; margin-top: 600px; position: absolute;}
+
+.s1{margin-left: 300px; position: absolute; color: darkblue;}
+.s2{margin-left: 350px; position: absolute; color: darkblue;}
+.s3{margin-left: 400px; position: absolute; color: darkblue;}
+.s4{margin-left: 450px; position: absolute; color: darkblue;}
+.s5{margin-left: 500px; position: absolute; color: darkblue;}
